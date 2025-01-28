@@ -1,0 +1,9 @@
+[package]
+name = "rika"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.25"
+wgpu = { version = "24.0.1", default-features = false, features = ["wgsl"] }
+winit = "0.30.8"
